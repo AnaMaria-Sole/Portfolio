@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ececec;
+}
+
+h1 {
+  color: #8F0000;
+  margin-bottom: 0px;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure it takes the full viewport height */
+  width: 100%;
+  padding: 20px; /* Optional: add some padding */
+}
+
+header {
+  display:flex;
+}
+
+.hello {
+  display:flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flexbox; /* Ensure the hero element uses flexbox */
+  justify-content:flex-end; /* Center the content horizontally */
+   /* Center the content vertically */
+}
+
+.menu-container {
+  max-width: 800px; /* Same as the max-width of main content */
+  width: 100%;
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Optional: add some padding */
+}
+
+main {
+  max-width: 800px; /* Limit the width of the main content */
+  width: 100%; /* Ensure it takes full width of container */
+  text-align: justify;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+li {
+  padding-right: 5vh;
+  list-style-type: none;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tech-icons {
+  max-width: 8vh;
+}
+
+.professional-skills {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.professional-skills li {
+  margin-bottom: 10px;
+}
+
+
+.gallery {
+  max-width: 820px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 30vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7vh;
+  margin-bottom: 10px;
+}
