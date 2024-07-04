@@ -73,9 +73,21 @@ li {
 }
 
 .professional-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between items */
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
 }
+
+.professional-skills li {
+  flex: 1 1 400px; /* Flex properties to control item sizing */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow */
+}
+
 
 .professional-skills li {
   margin-bottom: 10px;
