@@ -3,11 +3,11 @@ body {
   padding: 0;
   height: 100%;
   font-family: "Montserrat", sans-serif;
-  background-color: #ececec;
+  background-color: #f7f7f8;
 }
 
 h1 {
-  color: #8F0000;
+  color: #8f0000;
   margin-bottom: 0px;
 }
 
@@ -19,35 +19,38 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure it takes the full viewport height */
+  min-height: 100vh; 
   width: 100%;
-  padding: 20px; /* Optional: add some padding */
+  padding: 20px; 
 }
 
 header {
-  display:flex;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hello {
-  display:flex;
+  display: flex;
   flex-direction: column;
+  max-width: 200px;
 }
 
 .hero {
-  display: flexbox; /* Ensure the hero element uses flexbox */
-  justify-content:flex-end; /* Center the content horizontally */
-   /* Center the content vertically */
+  display: flexbox;
+  justify-content: flex-end; 
+  max-height: 300px;
 }
 
 .menu-container {
-  max-width: 800px; /* Same as the max-width of main content */
+  max-width: 1000px; /* Same as the max-width of main content */
   width: 100%;
   margin: 0 auto; /* Center align the container */
-  padding: 20px; /* Optional: add some padding */
+  padding: 20px;
 }
 
 main {
-  max-width: 800px; /* Limit the width of the main content */
+  max-width: 1000px; /* Limit the width of the main content */
   width: 100%; /* Ensure it takes full width of container */
   text-align: justify;
 }
@@ -69,30 +72,30 @@ li {
 }
 
 .tech-icons {
-  max-width: 8vh;
+  max-width: 12vh;
 }
 
 .professional-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Adjust the gap between items */
+  gap: 20px;
   list-style-type: none;
   padding: 0;
 }
 
-.professional-skills li {
-  flex: 1 1 400px; /* Flex properties to control item sizing */
-  background-color: #f0f0f0; /* Example background color */
+.professional-skill-cell {
+  flex: 1 1 200px;
+  background-color: #f0f0f0; 
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-
-.professional-skills li {
-  margin-bottom: 10px;
+.professional-skill-cell img {
+  display: block;
+  margin: 0 auto 10px; /* Center the image and add some margin below it */
 }
-
 
 .gallery {
   max-width: 820px;
@@ -112,4 +115,25 @@ footer {
   justify-content: center;
   font-size: 1.7vh;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+div, section{
+  padding-bottom: 50px;
+}
+
+.pro-img {
+  width: 50%;
 }
