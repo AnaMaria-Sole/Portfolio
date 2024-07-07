@@ -70,6 +70,7 @@ header {
   display: flexbox;
   justify-content: center; 
   max-height: 300px;
+  width: auto;
 }
 
 .menu-container {
@@ -108,7 +109,7 @@ li {
 }
 
 .tech-icons {
-  max-width: 12vh;
+  max-width: 6vh;
 }
 
 .professional-skills {
@@ -123,14 +124,60 @@ li {
   flex: 1 1 200px;
   background-color: #AC9DAF; 
   padding: 20px;
-  /*border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   text-align: center;
 }
 
 .professional-skill-cell img {
   display: block;
   margin: 0 auto 10px; /* Center the image and add some margin below it */
+}
+
+.bg-color-1 {
+  background-color: #6B4E71;
+}
+
+.color-1 { 
+  color: #F5DDDD;
+}
+
+.bg-color-2 {
+  background-color: #ECECEC;
+}
+
+.color-2 {
+  color: #A0AAB5;
+}
+
+.bg-color-3 {
+  background-color: #AC9DAF;
+}
+
+.color-3 {
+  color: #53687E;
+}
+
+.bg-color-4 {
+  background-color:#ECECEC;
+}
+
+.color-4 {
+  color: #6B4E71;
+}
+
+.bg-color-5 {
+  background-color: #c2b2b4;
+}
+
+.color-6 {
+  color: #ECECEC;
+}
+
+.bg-color-6 {
+  background-color: #8C7690;
+}
+
+.color-5 {
+  color:#6B4E71;
 }
 
 .gallery {
@@ -140,7 +187,7 @@ li {
   flex-direction: row;
   gap: 20px;
   justify-content: center;
-}
+  }
 
 .gallery-image {
   flex: 1 1 200px;
@@ -175,12 +222,11 @@ h3 {
   color: #6B4E71;
 }
 
-
-
 div, section{
   padding-bottom: 50px;
 }
 
 .pro-img {
-  width: 50%;
+  width: 100px;
+  height: 100px;
 }
