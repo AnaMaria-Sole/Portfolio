@@ -212,12 +212,31 @@
           <h3 class="titles-sections">CONTACT</h3>
           <p>
             If you are looking for a web developer, graphic designer, or photo
-            retoucher, contact me at:<br>anamgdesign@gmail.com <br>
-            If you prefer, fill out the
+            retoucher, contact me at:<br>
+            <a href="mailto:anamgdesign@gmail.com">anamgdesign@gmail.com</a><br>
+
+            Or if you prefer, fill out the
             form on this page. I am available to discuss your project and help
             bring it to life. I am also open to new job opportunities and
             collaborations. I look forward to working with you soon!
           </p>
+          <section id="contact">
+          <form action="submit_form.php" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="jane@email.com">
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+          </section>
         </section>
       </main>
     </div>
