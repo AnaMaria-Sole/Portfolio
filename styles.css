@@ -28,7 +28,7 @@ h3 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -53,6 +53,10 @@ header {
     background-color: transparent; /* Eliminar el fondo blanco */
     height: auto; /* Permitir que el contenedor se ajuste a su contenido */
   }
+  .secciones {
+    margin-left: 15%;
+    padding-top: 50px;
+  }
 }
 
 .hello {
@@ -72,7 +76,6 @@ header {
 .hero {
   display: flexbox;
   justify-content: center;
-  max-height: 500px;
 }
 
 .hero img {
@@ -87,11 +90,15 @@ header {
   margin: 0 auto; /* Center align the container */
   padding: 20px;
 }
-
+.menu-link {
+  text-decoration: none;
+  color: #53687e;
+}
 main {
   max-width: 1000px; /* Limit the width of the main content */
   width: 100%; /* Ensure it takes full width of container */
   text-align: justify;
+  margin-left: 0;
 }
 nav {
   display: flex;
@@ -127,7 +134,7 @@ li {
   display: block;
   width: 1000px;
   height: 2px; /* Adjust height as necessary */
-  background-color: #AC9DAF; /* Change to desired color */
+  background-color: #ac9daf; /* Change to desired color */
   margin-top: 10px; /* Adjust margin as necessary */
 }
 
@@ -231,18 +238,18 @@ footer {
 }
 
 #contact {
-  background-color: #fff;
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;
 }
 
 #contact h2 {
-  color: #6B4E71;
-  border-bottom: 2px solid #AC9DAF;
+  color: #6b4e71;
+  border-bottom: 2px solid #ac9daf;
   padding-bottom: 10px;
 }
 
-#contact address, #contact form {
+#contact address,
+#contact form {
   margin-top: 20px;
 }
 
@@ -255,14 +262,15 @@ footer {
   margin-bottom: 5px;
 }
 
-#contact form input, #contact form textarea {
+#contact form input,
+#contact form textarea {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
 }
 
 #contact form button {
-  background-color: #6B4E71;
+  background-color: #6b4e71;
   color: #fff;
   border: none;
   padding: 10px 20px;
