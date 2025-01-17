@@ -98,8 +98,8 @@ main {
   max-width: 1000px; /* Limit the width of the main content */
   width: 100%; /* Ensure it takes full width of container */
   text-align: justify;
-  margin-left: 0;
 }
+
 nav {
   display: flex;
   flex-direction: row;
@@ -132,7 +132,7 @@ li {
 .titles-sections::after {
   content: "";
   display: block;
-  width: 1000px;
+  width: 100%;
   height: 2px; /* Adjust height as necessary */
   background-color: #ac9daf; /* Change to desired color */
   margin-top: 10px; /* Adjust margin as necessary */
@@ -218,16 +218,21 @@ li {
 
 .gallery {
   max-width: 1050px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: grid;
   gap: 20px;
   justify-content: center;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
 }
 
 .gallery-image {
-  flex: 1 1 200px;
-  width: 30vh;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+  }
 }
 
 footer {
@@ -253,7 +258,7 @@ footer {
   margin-top: 20px;
 }
 
-#contact form div {
+/* #contact form div {
   margin-bottom: 15px;
 }
 
@@ -280,7 +285,7 @@ footer {
 
 #contact form button:hover {
   background-color: #5a3d5e;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   header {
