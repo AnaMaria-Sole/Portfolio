@@ -1,11 +1,59 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: "Montserrat", sans-serif;
-  background-color: #f7f7f8;
+  box-sizing: border-box;
 }
 
+.titulo {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 10vw;
+  letter-spacing: -0.2em;
+  color: rgba(100, 100, 100, 0.85);
+  margin-top: 1%;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .titulo {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 10vw;
+  }
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  background-color: #f7f7f8;
+  line-height: 1.6;
+}
+
+/*top menu*/
+.menu-container {
+  max-width: 1000px; /* Same as the max-width of main content */
+  width: 100%;
+  margin: 0 auto; /* Center align the container */
+  padding: 20px;
+} 
+
+.menu-link {
+  text-decoration: none;
+  color: #53687e;
+}
+
+/*white horozontal stripe*/
 .white-back {
   background-color: #ffffff;
   width: 100%;
@@ -17,14 +65,35 @@ body {
 h1 {
   color: #6b4e71;
   margin-bottom: 0px;
-  font-size: 4em;
+  font-size: 4vw;
+  font-weight:400;
   line-height: 0.8em;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 4vw;
+  }
 }
 
 h3 {
   text-align: center;
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 50px;
+  color: #6b4e71;
 }
 
 p {
@@ -49,9 +118,10 @@ header {
 }
 
 .los-osos {
-  width: 100vw;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
+  box-sizing: border-box;
 }
 
 .los-osos img {
@@ -97,16 +167,7 @@ header {
   object-fit: cover;
 }
 
-.menu-container {
-  max-width: 1000px; /* Same as the max-width of main content */
-  width: 100%;
-  margin: 0 auto; /* Center align the container */
-  padding: 20px;
-}
-.menu-link {
-  text-decoration: none;
-  color: #53687e;
-}
+/* Main content area styling */
 main {
   max-width: 1000px; /* Limit the width of the main content */
   width: 100%; /* Ensure it takes full width of container */
@@ -116,8 +177,9 @@ main {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: nowrap;
+  padding: 10px;
 }
 
 nav li {
@@ -125,7 +187,7 @@ nav li {
 }
 
 li {
-  padding-right: 5vh;
+  padding-right: 20px;
   list-style-type: none;
   color: #ffffff;
 }
@@ -137,9 +199,9 @@ li {
 .titles-sections {
   position: relative;
   font-size: 2rem;
-  text-align: left;
-  display: inline-block;
-  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 300;
+  margin: 20px auto;
 }
 
 .titles-sections::after {
@@ -170,7 +232,7 @@ li {
 }
 
 .professional-skill-cell {
-  flex: 1 1 200px;
+  flex: 1 1 20px;
   background-color: #ac9daf;
   padding: 20px;
   text-align: center;
@@ -241,13 +303,29 @@ li {
   width: 100%;
   height: auto;
 }
-
+.newsletter img {
+  width:100%;
+}
 @media only screen and (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+    grid-template-columns: repeat(1, 1fr); /* 1 columns for mobile */
+  }
+  .newsletter img {
+    width: 100%;
   }
 }
+.video-section {
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Prevent any overflow issues */
+}
 
+.video-section video {
+  width: 100%; /* Make the video responsive */
+  height: auto;
+}
+
+/* Footer section */
 footer {
   display: flex;
   justify-content: center;
@@ -256,51 +334,6 @@ footer {
   width: 100%;
 }
 
-#contact {
-  padding: 20px;
-  margin: 20px;
-  width: 100%;
-}
-
-#contact h2 {
-  color: #6b4e71;
-  border-bottom: 2px solid #ac9daf;
-  padding-bottom: 10px;
-}
-
-/* #contact address,
-#contact form {
-  margin-top: 20px;
-} */
-
-/* #contact form div {
-  margin-bottom: 15px;
-}
-
-#contact form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#contact form input,
-#contact form textarea {
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
-}
-
-#contact form button {
-  background-color: #6b4e71;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-#contact form button:hover {
-  background-color: #5a3d5e;
-} */
 
 @media only screen and (max-width: 768px) {
   header {
@@ -313,6 +346,14 @@ footer {
 
   .tech-icons {
     max-width: 8vh; /* Reducir el tamaño de los iconos en pantallas más pequeñas */
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2vh;
+    margin-bottom: 50px;
+    width: 100%;
   }
 }
 
