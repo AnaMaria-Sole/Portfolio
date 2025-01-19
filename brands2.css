@@ -1,20 +1,15 @@
-/* body {
-    margin: 0;
-    line-height: normal;
-    } */
-
 .logo-brands-democracy-1-icon {
     position: absolute;
     top: 314px;
-    left: 155px;
+    left: 29px;
     width: 140px;
     height: 140px;
     object-fit: cover;
 }
 .firma-brandsdemocracy-ana-mari-icon {
     position: absolute;
-    top: 855px;
-    left: 661px;
+    top: 950px;
+    left: 535px;
     width: 419px;
     height: 80px;
     object-fit: cover;
@@ -22,7 +17,7 @@
 .banner-puno-espanol-1-icon {
     position: absolute;
     top: 135px;
-    left: 664px;
+    left: 538px;
     width: 416px;
     height: 208px;
     object-fit: cover;
@@ -30,7 +25,7 @@
 .logo-brands-democracy-1 {
     position: absolute;
     top: 135px;
-    left: 176px;
+    left: 50px;
     width: 401px;
     height: 142px;
     object-fit: cover;
@@ -38,7 +33,7 @@
 .post-altra-5-1-icon {
     position: absolute;
     top: 417px;
-    left: 661px;
+    left: 535px;
     width: 190px;
     height: 190px;
     object-fit: cover;
@@ -46,7 +41,7 @@
 .ohio-collegiate-regular {
     position: absolute;
     top: 333px;
-    left: 353px;
+    left: 226px;
     font-size: 32px;
     font-family: 'Ohio Collegiate';
     color: #233a6b;
@@ -57,8 +52,8 @@
 .fonts {
     position: absolute;
     top: 311px;
-    left: 352px;
-    font-size: 12px;
+    left: 226px;
+    font-size: 16px;
     display: inline-block;
     width: 43px;
     height: 14px;
@@ -66,35 +61,44 @@
 .colors {
     position: absolute;
     top: 470px;
-    left: 175px;
-    font-size: 12px;
+    left: 49px;
+    font-size: 16px;
     display: inline-block;
     width: 56px;
     height: 14px;
 }
+.consistent-product-backgrounds {
+    position: absolute;
+    top: 1140px;
+    left: 525px;
+    font-size: 16px;
+    display: inline-block;
+    width: 300px;
+    height: 44px;
+    }
 .social-media-posts {
     position: absolute;
     top: 395px;
-    left: 661px;
-    font-size: 12px;
+    left: 535px;
+    font-size: 16px;
     display: inline-block;
-    width: 140px;
+    width: 180px;
     height: 14px;
 }
 .email-signature {
     position: absolute;
-    top: 836px;
-    left: 664px;
-    font-size: 12px;
+    top: 900px;
+    left: 538px;
+    font-size: 16px;
     display: inline-block;
-    width: 140px;
+    width: 180px;
     height: 14px;
 }
 .logomark {
     position: absolute;
     top: 311px;
-    left: 173px;
-    font-size: 12px;
+    left: 47px;
+    font-size: 16px;
     display: inline-block;
     width: 81px;
     height: 14px;
@@ -102,15 +106,15 @@
 .anton {
     position: absolute;
     top: 368px;
-    left: 351px;
+    left: 225px;
     font-size: 24px;
-    font-family: 'Anton SC';
+    font-family: 'Anton';
     color: #233a6b;
 }
 .macbook-air-1-child {
     position: absolute;
     top: 494px;
-    left: 176px;
+    left: 50px;
     background-color: #ffdd00;
     width: 111px;
     height: 111px;
@@ -118,7 +122,7 @@
 .macbook-air-1-item {
     position: absolute;
     top: 495px;
-    left: 330px;
+    left: 204px;
     background-color: #233a6b;
     width: 109px;
     height: 110px;
@@ -126,7 +130,7 @@
 .macbook-air-1-inner {
     position: absolute;
     top: 495px;
-    left: 475px;
+    left: 349px;
     background-color: #f3f3f3;
     width: 109px;
     height: 110px;
@@ -134,7 +138,7 @@
 .ffdc00 {
     position: absolute;
     top: 508px;
-    left: 183px;
+    left: 57px;
     display: inline-block;
     width: 71px;
     height: 18px;
@@ -147,7 +151,7 @@
 .c-0-m-container {
     position: absolute;
     top: 532px;
-    left: 183px;
+    left: 57px;
     text-align: justify;
     display: inline-block;
     width: 33px;
@@ -156,7 +160,7 @@
 .c-100-m-container {
     position: absolute;
     top: 532px;
-    left: 338px;
+    left: 212px;
     color: #f3f3f3;
     text-align: justify;
     display: inline-block;
@@ -166,7 +170,7 @@
 .c-6-m-container {
     position: absolute;
     top: 532px;
-    left: 483px;
+    left: 357px;
     text-align: justify;
     display: inline-block;
     width: 39px;
@@ -175,7 +179,7 @@
 .r-255-g-container {
     position: absolute;
     top: 532px;
-    left: 243px;
+    left: 117px;
     display: inline-block;
     width: 33px;
     height: 50px;
@@ -183,7 +187,7 @@
 .r-35-g-container {
     position: absolute;
     top: 532px;
-    left: 391px;
+    left: 265px;
     color: #f3f3f3;
     display: inline-block;
     width: 33px;
@@ -192,7 +196,7 @@
 .r-243-g-container {
     position: absolute;
     top: 530px;
-    left: 536px;
+    left: 410px;
     display: inline-block;
     width: 33px;
     height: 50px;
@@ -200,7 +204,7 @@
 .f3f3f3 {
     position: absolute;
     top: 506px;
-    left: 483px;
+    left: 357px;
     display: inline-block;
     width: 62px;
     height: 17px;
@@ -208,7 +212,7 @@
 .a6b {
     position: absolute;
     top: 508px;
-    left: 338px;
+    left: 212px;
     color: #f3f3f3;
     display: inline-block;
     width: 65px;
@@ -217,7 +221,7 @@
 .instagram-story-generico-puno-icon {
     position: absolute;
     top: 417px;
-    left: 861px;
+    left: 735px;
     width: 219px;
     height: 390px;
     object-fit: cover;
@@ -228,7 +232,7 @@
 .this-concept-of-container {
     position: absolute;
     top: 768px;
-    left: 176px;
+    left: 50px;
     font-size: 14px;
     text-align: justify;
     display: inline-block;
@@ -238,7 +242,7 @@
 .instagram-post-lyle-scott-2-1-icon {
     position: absolute;
     top: 617px;
-    left: 661px;
+    left: 535px;
     width: 190px;
     height: 190px;
     object-fit: cover;
@@ -246,7 +250,7 @@
 .rectangle-div {
     position: absolute;
     top: 648px;
-    left: 176px;
+    left: 50px;
     background-color: #233a6b;
     width: 207px;
     height: 89px;
@@ -254,7 +258,7 @@
 .macbook-air-1-child1 {
     position: absolute;
     top: 648px;
-    left: 383px;
+    left: 257px;
     background-color: #cfd3db;
     width: 200px;
     height: 89px;
@@ -262,7 +266,7 @@
 .logo-brands-democracy-blue-1 {
     position: absolute;
     top: 662px;
-    left: 408px;
+    left: 282px;
     width: 158px;
     height: 60px;
     overflow: hidden;
@@ -271,21 +275,114 @@
 .logo-brands-democracy-white-1 {
     position: absolute;
     top: 663px;
-    left: 203px;
+    left: 77px;
     width: 158px;
     height: 59px;
     overflow: hidden;
     object-fit: cover;
 }
+
+.group-icon {
+    position: absolute;
+    top: 1140px;
+    left: 49px;
+    width: 402px;
+    height: 394.6px;
+    object-fit: cover;
+    }
+    .screenshot-2025-01-17-at-2115 {
+    position: absolute;
+    top: 1220px;
+    left: 504px;
+    width: 231px;
+    height: 227px;
+    object-fit: cover;
+    }
+    .screenshot-2025-01-17-at-2113 {
+    position: absolute;
+    top: 1300px;
+    left: 711px;
+    width: 233px;
+    height: 232px;
+    object-fit: cover;
+    }
+
 .macbook-air-1 {
     margin-top: 30px;
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 1200px;
+    height: 1600px;
     overflow: hidden;
     text-align: left;
     font-size: 10px;
     color: #000;
     font-family: Montserrat;
 }
+
+.reflejos-trifold-layout-1 {
+    position: absolute;
+    top: 195px;
+    left: 47px;
+    width: 497px;
+    height: 298px;
+    object-fit: cover;
+    }
+    .mockup {
+    position: absolute;
+    top: 589px;
+    left: 51px;
+    display: inline-block;
+    width: 140px;
+    height: 14px;
+    }
+    .trifold-layout {
+    position: absolute;
+    top: 135px;
+    left: 47px;
+    display: inline-block;
+    width: 140px;
+    height: 14px;
+    }
+    .davidbritomockup-1-icon {
+    position: absolute;
+    top: 647px;
+    left: 47px;
+    width: 906px;
+    height: 412px;
+    object-fit: cover;
+    }
+    .david-brito-cover-1-icon {
+    position: absolute;
+    top: 152px;
+    left: 598px;
+    width: 356px;
+    height: 356px;
+    object-fit: cover;
+    }
+    .macbook-air-2 {
+        margin-top:30px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1200px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Montserrat;
+    }
+    .macbook-air-3-child {
+        position: absolute;
+        top: 24px;
+        left: 480px;
+        width: 48px;
+        height: 48px;
+        }
+        .macbook-air-3 {
+        width: 100%;
+        position: relative;
+        height: 96px;
+        overflow: hidden;
+        }
+        
